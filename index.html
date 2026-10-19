@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Whack-a-Mole</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<main class="game">
+  <header>
+    <div class="stat"><span id="score">0</span><small>score</small></div>
+    <div class="title">
+      <h1>Whack-a-Mole</h1>
+      <p id="status">Tap start and catch them fast.</p>
+    </div>
+    <div class="stat"><span id="timer">30</span><small>time</small></div>
+  </header>
+
+  <div class="board" id="board"></div>
+
+  <div class="footer">
+    <button id="startBtn" type="button">Start game</button>
+    <p class="best">Best <strong id="best">0</strong></p>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
