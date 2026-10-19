@@ -9,6 +9,7 @@ A 30 second arcade game. Moles pop out of nine holes and speed up as the clock r
 - Hit feedback and a small bounce animation
 - Best score saved in local storage
 - Touch and mouse friendly
+- A How to play popup explains the rules
 
 ## Running it
 

@@ -23,10 +23,29 @@
   <div class="board" id="board"></div>
 
   <div class="footer">
-    <button id="startBtn" type="button">Start game</button>
+    <div class="footer-actions">
+      <button id="startBtn" type="button">Start game</button>
+      <button class="help-btn" id="helpBtn" type="button">How to play</button>
+    </div>
     <p class="best">Best <strong id="best">0</strong></p>
   </div>
 </main>
+
+<div class="help-modal" id="helpModal" hidden>
+  <div class="help-backdrop" data-close></div>
+  <div class="help-dialog" role="dialog" aria-modal="true" aria-labelledby="helpTitle">
+    <button class="help-close" id="helpClose" type="button" aria-label="Close">×</button>
+    <h2 class="help-title" id="helpTitle">How to play</h2>
+    <p class="help-lede">A reaction game. Moles pop out of their holes for a moment and you have to catch them before they duck back down.</p>
+    <ol class="help-steps">
+      <li>Press Start game to begin the thirty second round.</li>
+      <li>Click or tap a mole as soon as it appears.</li>
+      <li>Each hit adds a point. Your score shows at the top left.</li>
+      <li>The timer counts down at the top right.</li>
+      <li>When time runs out the round ends and your best score is saved.</li>
+    </ol>
+  </div>
+</div>
 <script src="script.js"></script>
 </body>
 </html>
